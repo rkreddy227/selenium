@@ -20,7 +20,7 @@ public class AllegisgroupJobSerch3 {
 	//@Test
 	public void jobsearchOnAllegisGroupHomePage() {
 		System.out.println("this is my first test");
-		assertTrue(true);
+		//assertTrue(true);
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();

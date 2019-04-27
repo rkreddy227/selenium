@@ -15,7 +15,7 @@ public class AllegisgroupJobSerch2 {
 
 	
 	
-	//@Test
+	@Test
 	public void jobsearchOnAllegisGroupHomePage() {
 		System.out.println("this is my first test");
 		assertTrue(true);
@@ -95,12 +95,12 @@ public class AllegisgroupJobSerch2 {
 			
 	}
 	
-	//@Test
+	@Test
 	public void jobsearchOnAllegisGroupHomePage2() {
 		System.out.println("this is my first test3");
 	}
 	
-	//@Test
+	@Test
 	public void jobsearchOnAllegisGroupHomePage3() {
 		System.out.println("this is my first test4");
 	}

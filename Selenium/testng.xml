@@ -12,7 +12,7 @@
       <class name="Selenium.Selenium.FramesHandlingExample"/>
       <class name="Selenium.Selenium.sample"/>
       <class name="Selenium.Selenium.MouseActionsExample"/>
-      <class name="Selenium.Selenium.WindowHandleExample"/>
+<!--       <class name="Selenium.Selenium.WindowHandleExample"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
