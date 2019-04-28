@@ -11,8 +11,9 @@
 <!--       <class name="Selenium.Selenium.HowToReadDataFromExcel"/> -->
 <!--       <class name="Selenium.Selenium.FramesHandlingExample"/> -->
 <!--       <class name="Selenium.Selenium.sample"/> -->
-<!--       <class name="Selenium.Selenium.MouseActionsExample"/> -->
-      <class name="Selenium.Selenium.WindowHandleExamplebasics"/>
+      <class name="Selenium.Selenium.MouseActionsExample"/>
+<!--       <class name="Selenium.Selenium.WindowHandleExamplebasics"/> -->
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
