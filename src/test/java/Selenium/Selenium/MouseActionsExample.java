@@ -142,14 +142,9 @@ public class MouseActionsExample {
 	       //System.out.println(jobTitles.get(0).getText());
 	      //System.out.println(jobtLocation.get(0).getText());
 	      System.out.println(elementAeroteck.get(0).getText());
-	        //driver.quit();
-	        
-	        
-<<<<<<< HEAD
-	       
-=======
+
 	       driver.close();
->>>>>>> 1f8210565780470bab9606991b096f527c9f6665
+
 	        
 	}
 	
