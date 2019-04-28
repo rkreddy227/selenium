@@ -74,7 +74,7 @@ public class MouseActionsExample {
 	          //}
 	       System.out.println(jobTitles.get(0).getText());
 	      System.out.println(jobtLocation.get(0).getText());
-	        //driver.quit();
+	        driver.close();
 	        
 	        
 	       
@@ -143,7 +143,7 @@ public class MouseActionsExample {
 	        //driver.quit();
 	        
 	        
-	       
+	       driver.close();
 	        
 	}
 	

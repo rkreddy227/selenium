@@ -23,7 +23,7 @@ public class WindowHandleExamplebasics  {
 		driver.get(baseUrl);
 		
 		String windowsHandlesParent= driver.getWindowHandle();
-System.out.println(windowsHandlesParent);
+		System.out.println(windowsHandlesParent);
 
 		driver.findElement(By.xpath("//img[contains(@alt,'EASi')]/following-sibling::div//a")).click();
 
@@ -55,7 +55,7 @@ System.out.println(windowsHandlesParent);
 			Set<String> windowsHandles3 = driver.getWindowHandles();
 			System.out.println(windowsHandles3.size());
 			
-			
+			driver.close();
 			
 		}
 		

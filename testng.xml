@@ -4,15 +4,15 @@
   <test thread-count="1" name="Test">
   
     <classes>
-      <class name="Selenium.Selenium.AllegisgroupJobSerch"/>
-      <class name="Selenium.Selenium.AllegisgroupJobSerch2"/>
-      <class name="Selenium.Selenium.AllegisgroupJobSerch3"/>
-      <class name="Selenium.Selenium.AppTest"/>
-      <class name="Selenium.Selenium.HowToReadDataFromExcel"/>
-      <class name="Selenium.Selenium.FramesHandlingExample"/>
-      <class name="Selenium.Selenium.sample"/>
+<!--       <class name="Selenium.Selenium.AllegisgroupJobSerch"/> -->
+<!--       <class name="Selenium.Selenium.AllegisgroupJobSerch2"/> -->
+<!--       <class name="Selenium.Selenium.AllegisgroupJobSerch3"/> -->
+<!--       <class name="Selenium.Selenium.AppTest"/> -->
+<!--       <class name="Selenium.Selenium.HowToReadDataFromExcel"/> -->
+<!--       <class name="Selenium.Selenium.FramesHandlingExample"/> -->
+<!--       <class name="Selenium.Selenium.sample"/> -->
       <class name="Selenium.Selenium.MouseActionsExample"/>
-<!--       <class name="Selenium.Selenium.WindowHandleExample"/> -->
+<!--       <class name="Selenium.Selenium.WindowHandleExamplebasics"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

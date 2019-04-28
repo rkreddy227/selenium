@@ -35,7 +35,7 @@ public class BaseTest {
         }
     }
     
-//    @AfterTest
+    @AfterTest
 //    public void afterTest() {
 //            driver.quit();
 //        }
