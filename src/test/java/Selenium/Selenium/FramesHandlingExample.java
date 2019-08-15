@@ -28,21 +28,21 @@ public class FramesHandlingExample {
 	        String baseUrl = "http://demo.guru99.com/test/guru99home/";					
 	        driver.get(baseUrl);
 	        
-	       // String ParentID= driver.getWindowHandle();
+	       String ParentID= driver.getWindowHandle();
 	        driver.switchTo().frame("_mN_main_224278574_0_n");
 	        driver.findElement(By.xpath("//a[text()='Data Analytics Training']")).click();
 
-//	        Set<String> allwindows = driver.getWindowHandles();
-//	        Iterator<String> itr= allwindows.iterator();
-//	        while (itr.hasNext()) {
-//				String currentid= itr.next();
-//				if(currentid != ParentID) {
-//					driver.switchTo().window(currentid);
-//					
-//				}
-//			}
-//	        
-//	        
+	        Set<String> allwindows = driver.getWindowHandles();
+	        Iterator<String> itr= allwindows.iterator();
+	        while (itr.hasNext()) {
+				String currentid= itr.next();
+				if(currentid != ParentID) {
+					driver.switchTo().window(currentid);
+					
+				}
+			}
+	        
+	        
 	        
 	        
 	}

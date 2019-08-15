@@ -26,9 +26,6 @@ public class WindowHandleExamplebasics  {
 
 		driver.findElement(By.xpath("//img[contains(@alt,'EASi')]/following-sibling::div//a")).click();
 
-		// img[contains(@alt,'EASi')]/following-sibling::div//a
-		// img[contains(@alt,'EASi')]/..//a
-
 		Set<String> windowsHandles = driver.getWindowHandles();
 		System.out.println("open Windows after we click  "+windowsHandles.size());
 		Iterator<String> itr = windowsHandles.iterator();

@@ -15,6 +15,15 @@ import org.testng.annotations.Test;
 public class AllegisgroupJobSerch3 {
 
 	
+	/*
+	 * Scenario: Verify that user able to successfully login to demoqa.com website
+	 * Given A user is on login page When user enters an invalid username and valid
+	 * password Then Application should deny login to the user
+	 */
+	
+	
+	
+	
 	
 	//https://www.allegisgroup.com
 	//@Test
